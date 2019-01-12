@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Web", "CamperFinder.Web\CamperFinder.Web.csproj", "{461F7A8C-6885-488B-B490-CCE44362FA78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Api", "CamperFinder.Api\CamperFinder.Api.csproj", "{4F352F14-3236-4D07-BCA0-D11547F67B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Api.Test", "CamperFinder.Api.Test\CamperFinder.Api.Test.csproj", "{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Web.Test", "CamperFinder.Web.Test\CamperFinder.Web.Test.csproj", "{600D7439-FBCA-4860-AF3A-6762552A744C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{461F7A8C-6885-488B-B490-CCE44362FA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{461F7A8C-6885-488B-B490-CCE44362FA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{461F7A8C-6885-488B-B490-CCE44362FA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F352F14-3236-4D07-BCA0-D11547F67B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F352F14-3236-4D07-BCA0-D11547F67B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F352F14-3236-4D07-BCA0-D11547F67B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F352F14-3236-4D07-BCA0-D11547F67B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600D7439-FBCA-4860-AF3A-6762552A744C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600D7439-FBCA-4860-AF3A-6762552A744C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600D7439-FBCA-4860-AF3A-6762552A744C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600D7439-FBCA-4860-AF3A-6762552A744C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
