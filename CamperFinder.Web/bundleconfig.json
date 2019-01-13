@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+    "inputFiles": [
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/css/sticky-footer-navbar.min.css",
+    "inputFiles": [
+      "wwwroot/css/sticky-footer-navbar.css"
+    ]
+  }
+]
