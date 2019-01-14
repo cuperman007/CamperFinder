@@ -18,6 +18,9 @@ namespace CamperFinder.Web
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            // the create default builder methods calls AddJsonFile twice, 
+            // once for appsettings.json and again for appsettings.{Environment}.json
+            // https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-2.1#file-configuration-provider
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }
