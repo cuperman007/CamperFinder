@@ -12,7 +12,7 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "https://camperfinder-api.azurewebsites.net/api/": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
     "CamperFinder.Web": {

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Web", "CamperFinder.Web\CamperFinder.Web.csproj", "{461F7A8C-6885-488B-B490-CCE44362FA78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamperFinder.Web", "CamperFinder.Web\CamperFinder.Web.csproj", "{461F7A8C-6885-488B-B490-CCE44362FA78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Api", "CamperFinder.Api\CamperFinder.Api.csproj", "{4F352F14-3236-4D07-BCA0-D11547F67B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamperFinder.Api", "CamperFinder.Api\CamperFinder.Api.csproj", "{4F352F14-3236-4D07-BCA0-D11547F67B3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Api.Test", "CamperFinder.Api.Test\CamperFinder.Api.Test.csproj", "{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamperFinder.Api.Test", "CamperFinder.Api.Test\CamperFinder.Api.Test.csproj", "{3BEF12C1-EEEE-45A3-917F-CED9C1941E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Web.Test", "CamperFinder.Web.Test\CamperFinder.Web.Test.csproj", "{600D7439-FBCA-4860-AF3A-6762552A744C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CamperFinder.Web.Test", "CamperFinder.Web.Test\CamperFinder.Web.Test.csproj", "{600D7439-FBCA-4860-AF3A-6762552A744C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamperFinder.Model", "CamperFinder.Model\CamperFinder.Model.csproj", "{8A73DA33-DC78-4E0D-A1F1-264F7B50C756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{600D7439-FBCA-4860-AF3A-6762552A744C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{600D7439-FBCA-4860-AF3A-6762552A744C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{600D7439-FBCA-4860-AF3A-6762552A744C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A73DA33-DC78-4E0D-A1F1-264F7B50C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A73DA33-DC78-4E0D-A1F1-264F7B50C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A73DA33-DC78-4E0D-A1F1-264F7B50C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A73DA33-DC78-4E0D-A1F1-264F7B50C756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

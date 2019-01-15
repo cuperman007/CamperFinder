@@ -3,6 +3,7 @@
 @{
     ViewData["Title"] = "Home page";
 }
+@addTagHelper *, WebApp
 
 <div>
     This is the configuration:
@@ -19,7 +20,17 @@
         </div>
     </environment>
 
-    <hr/>
+    <hr />
     <div>Api URI:  @Model.ApiUri </div>
-   
+    <hr/>
+    <h3>
+        Vehicles:
+    </h3>
+    <div> @foreach (var vehicle in Model.Vehicles)
+        {
+            <vc:vehicle-summary vehicle="@vehicle"></vc:vehicle-summary>
+            <hr />
+        }
+    </div>
+
 </div>
