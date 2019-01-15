@@ -26,9 +26,10 @@
     <h3>
         Vehicles:
     </h3>
-    <div> @foreach (var vehicle in Model.Vehicles)
+    <div>
+        @foreach (var vehicle in Model.Vehicles)
         {
-            <vc:vehicle-summary vehicle="@vehicle"></vc:vehicle-summary>
+            @(await Component.InvokeAsync("VehicleSummary", vehicle));
             <hr />
         }
     </div>
