@@ -5,33 +5,11 @@
 }
 @addTagHelper *, WebApp
 
-<div>
-    This is the configuration:
-
-    <environment include="Development">
-        <div>&lt;environment include="Development"&gt;</div>
-    </environment>
-    <environment exclude="Development">
-        <div>&lt;environment exclude="Development"&gt;</div>
-    </environment>
-    <environment include="Staging,Development,Staging_2">
-        <div>
-            &lt;environment include="Staging,Development,Staging_2"&gt;
-        </div>
-    </environment>
-
-    <hr />
-    <div>Api URI:  @Model.ApiUri </div>
-    <hr/>
-    <h3>
-        Vehicles:
-    </h3>
-    <div>
+<div class="container">
+    <div class="card-columns">
         @foreach (var vehicle in Model.Vehicles)
         {
             @(await Component.InvokeAsync("VehicleSummary", vehicle));
-            <hr />
         }
     </div>
-
 </div>

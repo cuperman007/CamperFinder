@@ -1,13 +1,19 @@
 ﻿@model CamperFinder.Model.Vehicle
+<div class="card mb-3">
+    <img class="card-img-top" src="@Model.ImgUrl" />
+    <div class="card-img-overlay image-header">
+        <h2 class="float-md-left">@(Model.Name) </h2>
+        <h2 class="float-md-right">@(Model.Price.ToString("£0,000"))</h2>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>@Model.ShortDesc</li>
+            <li>Make: @Model.Make</li>
+            <li>Model: @Model.Model</li>
+            <li>Age: @Model.Year</li>
+            <li>Mileage: @Model.Mileage</li>
+        </ul>
+    </div>
 
-<div>
-    <h2>@(Model.Name) - @(Model.Price)</h2>
-    <ul>
-        <li>@Model.ShortDesc</li>
-        <li>Make: @Model.Make</li>
-        <li>Model: @Model.Model</li>
-        <li>Age: @Model.Year</li>
-        <li>Mileage: @Model.Mileage</li>
-    </ul>
 </div>
 

@@ -15,8 +15,9 @@ namespace CamperFinder.Model
         public int Mileage { get; set; }
         public int Year { get; set; }
         public decimal Price { get; set; }
+        public string ImgUrl { get; set; }
 
-        public Vehicle(int id, string make, string model, string name, string shortDesc, int mileage, int year, decimal price)
+        public Vehicle(int id, string make, string model, string name, string shortDesc, int mileage, int year, decimal price, string imgUrl)
         {
             Id = id;
             Make = make;
@@ -26,6 +27,7 @@ namespace CamperFinder.Model
             Mileage = mileage;
             Year = year;
             Price = price;
+            ImgUrl = imgUrl;
         }
     }
 }
